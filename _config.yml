@@ -1,4 +1,8 @@
-# Configuração do tema do blog
-theme: jekyll-theme-minimal
+# Configuração do Tema para GitHub Pages
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # Este plugin é OBRIGATÓRIO para temas remotos
+
+# Suas configurações pessoais
 title: "Alexandre Locci Martins - IA & Quality"
-description: "PhD em IA | Especialista em Validação de LLMs e Qualidade de Modelos"
+description: "PhD em IA | Especialista em Validação de LLMs"
